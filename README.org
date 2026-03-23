@@ -1,0 +1,21 @@
+* emacs-colemak layout
+
+To put simply I took file from sys-apps/kbd gentoo package placed at
+/usr/share/keymaps/i386/colemak/en-latin9.map.gz and changed one line,
+so it will work as normal Colemak layout, except that Caps-lock works as
+Control rather than Backspace.
+
+You can set this as your Linux console keymap like this
+#+begin_src bash
+  # as root
+  make install # in the directory where you cloned this repo
+  localectl set-keymap emacs-colemak
+#+end_src
+
+** More info
+Consider reading kbd-project docs.
+https://kbd-project.org/#documentation
+
+** LICENSE
+Original file was licensed as Public Domain and I don't want to change
+this yet.
