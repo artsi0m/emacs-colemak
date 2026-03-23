@@ -1,5 +1,8 @@
 # colemak.kmap for Linux console.
 # 2006-01-01 Shai Coleman, http://colemak.com/ . Public domain.
+#
+# 2026-03-23 Artsiom Karakin.
+# Made CapsLock act as Control rather than BackSpace.
 alt_is_meta
 charset "iso-8859-15"  # use a ISO-8859-15 font, e.g.: consolechars -f lat9v-14
 keymaps 0-12
