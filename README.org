@@ -13,8 +13,10 @@ You can set this as your Linux console keymap like this
 #+end_src
 
 ** More info
-Consider reading kbd-project docs.
-https://kbd-project.org/#documentation
+- https://kbd-project.org/#documentation
+- https://colemak.com
+- https://colemak.org
+- https://gnu.org/s/emacs
 
 ** LICENSE
 Original file was licensed as Public Domain and I don't want to change
