@@ -21,3 +21,13 @@ You can set this as your Linux console keymap like this
 ** LICENSE
 Original file was licensed as Public Domain and I don't want to change
 this yet.
+
+** kmscon
+Turns out that you don't need this file with kmscon and the same
+behavior could be achieved with this as your kmscon config:
+
+#+begin_src
+xkb-layout=us
+xkb-variant=colemak
+xkb-options=ctrl:nocaps
+#+end_src
